@@ -8,5 +8,9 @@ class MotoristaVeiculoBase(BaseModel):
     datahora_inicio_disponibilidade: Optional[datetime]
     datahora_fim_disponibilidade: Optional[datetime]
 
+
+class MotoristaVeiculoResponse(MotoristaVeiculoBase):
+    id_motoristaVeiculo: int
+
     class Config:
         from_attributes = True

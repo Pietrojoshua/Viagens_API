@@ -4,6 +4,7 @@ from typing import Optional
 
 class MotoristaBase(BaseModel):
     id_usuario: int
+    nome_motorista: str
     media_avaliacao: Optional[float]
     cnh: int
     

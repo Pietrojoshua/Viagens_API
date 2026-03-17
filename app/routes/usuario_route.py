@@ -40,7 +40,7 @@ def buscar_usuario(id: int, db: Session = Depends(get_db)):
 
 #Atualizar Usuario
 @router.put("/{id}", response_model=UsuarioResponse)
-def atualizar_usuario(id: int, dados: UsuarioCreate, db: Session = Depends(get_db)):
+def update_usuario(id: int, dados: UsuarioCreate, db: Session = Depends(get_db)):
 
     usuario = db.query(Usuario).filter(Usuario.id_usuario == id).first()
 

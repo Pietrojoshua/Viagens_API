@@ -4,6 +4,7 @@ from typing import Optional
 
 class PassageiroBase(BaseModel):
     id_usuario: int
+    nome_passageiro: str
     media_avaliacao: Optional[float]
 
 
