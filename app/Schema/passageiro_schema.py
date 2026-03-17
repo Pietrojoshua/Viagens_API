@@ -7,10 +7,6 @@ class PassageiroBase(BaseModel):
     media_avaliacao: Optional[float]
 
 
-class PassageiroCreate(PassageiroBase):
-    pass
-
-
 class PassageiroResponse(PassageiroBase):
     id_passageiro: int
 

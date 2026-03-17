@@ -8,10 +8,6 @@ class VeiculoBase(BaseModel):
     id_classe_veiculo: int
 
 
-class VeiculoCreate(VeiculoBase):
-    pass
-
-
 class VeiculoResponse(VeiculoBase):
     id_veiculo: int
 

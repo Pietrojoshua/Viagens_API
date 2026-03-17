@@ -20,10 +20,6 @@ class CorridaBase(BaseModel):
     status: str
 
 
-class CorridaCreate(CorridaBase):
-    pass
-
-
 class CorridaResponse(CorridaBase):
     id_corrida: int
 

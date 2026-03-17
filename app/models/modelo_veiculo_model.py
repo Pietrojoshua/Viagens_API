@@ -12,8 +12,4 @@ class ModeloVeiculo(Base):
     ano = Column(Integer)
     capacidade = Column(Integer)
     propriedade = Column(String(20))
-
-    id_tipo_combustivel = Column(
-        Integer,
-        ForeignKey("tipo_combustivel.id_tipo_combustivel")
-    )
+    id_tipo_combustivel = Column(Integer, ForeignKey("tipo_combustivel.id_tipo_combustivel"))

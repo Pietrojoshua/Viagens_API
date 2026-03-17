@@ -9,10 +9,6 @@ class PagamentoBase(BaseModel):
     datahora_transacao: datetime
 
 
-class PagamentoCreate(PagamentoBase):
-    pass
-
-
 class PagamentoResponse(PagamentoBase):
     id_pagamentos: int
 

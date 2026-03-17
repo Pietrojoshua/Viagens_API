@@ -9,8 +9,6 @@ class ModeloVeiculoBase(BaseModel):
     propriedade: str
     id_tipo_combustivel: int
 
-class ModeloVeiculoCreate(ModeloVeiculoBase):
-    pass
 
 class ModeloVeiculoResponse(ModeloVeiculoBase):
     id_modelo_veiculo: int
