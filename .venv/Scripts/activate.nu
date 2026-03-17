@@ -68,7 +68,7 @@ export-env {
         }
     }
 
-    let virtual_env = 'C:\Users\AlunoADS2\Projetos\Viagens_API\Viagens_API\.venv'
+    let virtual_env = 'C:\Users\AlunoADS2\Projetos\Viagens_API\.venv'
     let bin = 'Scripts'
     let path_name = if (has-env 'Path') { 'Path' } else { 'PATH' }
     let venv_path = ([$virtual_env $bin] | path join)

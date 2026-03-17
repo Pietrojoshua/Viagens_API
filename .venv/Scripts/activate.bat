@@ -26,7 +26,7 @@
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-@for %%i in ("C:\Users\AlunoADS2\Projetos\Viagens_API\Viagens_API\.venv") do @set "VIRTUAL_ENV=%%~fi"
+@for %%i in ("C:\Users\AlunoADS2\Projetos\Viagens_API\.venv") do @set "VIRTUAL_ENV=%%~fi"
 
 @set "VIRTUAL_ENV_PROMPT=Viagens_API"
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (

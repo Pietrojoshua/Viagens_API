@@ -31,7 +31,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV 'C:\Users\AlunoADS2\Projetos\Viagens_API\Viagens_API\.venv'
+setenv VIRTUAL_ENV 'C:\Users\AlunoADS2\Projetos\Viagens_API\.venv'
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/Scripts:$PATH:q"
