@@ -1,0 +1,19 @@
+@BASE_URL = http://localhost:8000
+
+### Teste API
+GET {{BASE_URL}}/
+Accept: application/json
+
+### Criar usuário
+POST {{BASE_URL}}/usuarios/
+Content-Type: application/json
+
+{
+    "id_usuario": 1,
+    "nome": "pietro",
+    "cpf": "22270745601",
+    "data_nascimento": "2008-09-24",
+    "email": "pietroetro@gmail.com",
+    "username": "pietrin",
+    "senha": "pietro12"
+}
